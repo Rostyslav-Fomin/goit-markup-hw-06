@@ -66,10 +66,10 @@ p {
     (100% - var(--card-gap) * (var(--grid-items) - 1)) / var(--grid-items)
   );
 }
-input:focus-visible,
+/* input:focus-visible,
 textarea:focus-visible {
   outline: none;
-}
+} */
 /* Сторінка "Студія" */
 /* Шапка */
 .page-header {
@@ -352,6 +352,7 @@ h1 {
 .form-input:focus,
 .textarea:focus {
   border: 1px solid var(--accent-color);
+  outline: transparent;
 }
 .form-input:focus + .form-image {
   fill: var(--accent-color);
